@@ -1,0 +1,112 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #252A34;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area-cadastro{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container{
+    width: 75%;
+    height: 75vh;
+    display: flex;
+
+}
+.form{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #181920;
+	width: 1300px;
+	padding: 35px;
+	border-radius: 8px;
+    justify-content: center;
+}
+
+.form-header{
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.login button{
+    border: none;
+    background-color: #5568FE;
+    padding: o.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-header h1::after{
+    content:'';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #5568FE;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.title{
+    color: #5568FE;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    padding: 1rem 0;
+    color: #5568FE;
+    position: relative;
+    bottom: 110px;
+
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    background-color: #252A34;
+    color: #CBD0F7
+}
+
+.input-box label,
+.gender-title h6{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.input-box input::placeholder{
+    color: #CBD0F7;
+}
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+input[type="submit"]{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #5568FE;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #CBD0F7;
+    font-size: 1.2rem;
+    font-weight: 500;
+   
+  }

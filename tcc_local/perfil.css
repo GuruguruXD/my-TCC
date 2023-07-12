@@ -1,0 +1,158 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #252A34;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    display: flex;
+	flex-direction: column;
+	align-items: right;
+	background-color: #181920;
+	width: 1000px;
+	height: 430px;
+	padding: 35px;
+	border-radius: 8px;
+    justify-content: right;
+    position: relative;
+    top: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    color: #5568FE;
+    
+}
+.input input, select, textarea{
+    margin: 5px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    background-color: #252A34;
+    color: #CBD0F7;
+    width: 750px;
+    position: relative;
+    bottom: 40px;
+}
+.formulario h2::after{
+    content:'';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #5568FE;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+button{
+    width: 30%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #5568FE;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #CBD0F7;
+    position: relative;
+    bottom: 50px;
+    left:5px;
+    font-size: 15px;
+}
+h6{
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    
+}
+h2{
+    color: #5568FE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav {
+    background-color: #161616;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 40px);
+    top: 0;
+}
+
+h1,
+p {
+    color: #5568FE;
+}
+
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+a:hover,
+h1:hover,
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+    background-color: #606060;
+    width: 100%;
+    height: 100vh;
+}
+img{
+	
+    transform: scale(0.3);
+	position: absolute; ;  top: px ;
+
+}
